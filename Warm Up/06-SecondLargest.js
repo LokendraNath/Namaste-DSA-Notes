@@ -17,4 +17,4 @@ function findSecondLargest(arr) {
   }
   return secondLargest;
 }
-console.log(findSecondLargest(arr5));
+const result = findSecondLargest(arr5);
