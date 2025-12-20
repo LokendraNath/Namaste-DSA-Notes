@@ -1,5 +1,5 @@
 function reverse(x) {
-  let oNum = x;
+  let xCopy = x;
   x = Math.abs(x);
   let rev = 0;
   while (x > 0) {
@@ -11,5 +11,5 @@ function reverse(x) {
 
   if (rev < -limit || rev > limit) return 0;
 
-  return oNum < 0 ? -rev : rev;
+  return xCopy < 0 ? -rev : rev;
 }
