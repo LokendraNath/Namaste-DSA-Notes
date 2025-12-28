@@ -9,4 +9,4 @@ function isPalindrom(x) {
   }
   return num === reverse;
 }
-console.log(isPalindrom(1334331));
+console.log(isPalindrom(1334331)); // true

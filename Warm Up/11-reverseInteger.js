@@ -8,8 +8,6 @@ function reverse(x) {
     x = Math.floor(x / 10);
   }
   let limit = Math.pow(2, 31);
-
   if (rev < -limit || rev > limit) return 0;
-
   return oNum < 0 ? -rev : rev;
 }
