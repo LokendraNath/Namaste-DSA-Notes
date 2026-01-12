@@ -5,13 +5,13 @@ const maxProfit = (prices) => {
   let maxProVl = 0;
 
   for (let i = 1; i < prices.length; i++) {
-    if (prices[i] - max > maxProVal) {
-      maxProVal = prices[i] - max;
+    if (prices[i] - max > maxProVl) {
+      maxProVl = prices[i] - max;
     }
     if (prices[i] < max) {
       max = prices[i];
     }
   }
-  return maxProVal;
+  return maxProVl;
 };
 console.log(maxProfit(prices));
